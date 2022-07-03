@@ -1,0 +1,29 @@
+{
+  "name": "copperpro",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /CopperPro/"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SofiaPirogova/CopperPro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SofiaPirogova/CopperPro/issues"
+  },
+  "homepage": "https://github.com/SofiaPirogova/CopperPro",
+  "dependencies": {
+    "parcel": "^2.6.2"
+  },
+  "devDependencies": {
+    "notiflix": "^3.2.5",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  }
+}
