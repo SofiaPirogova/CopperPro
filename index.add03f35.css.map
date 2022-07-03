@@ -1,0 +1,1 @@
+{"mappings":"AEAA","sources":["index.add03f35.css","src/css/main.min.css","src/sass/main.scss"],"sourcesContent":["body {\n  background-color: gray;\n}\n\n/*# sourceMappingURL=index.add03f35.css.map */\n","body{background-color:gray}","body {\n\tbackground-color: gray;\n}"],"names":[],"version":3,"file":"index.add03f35.css.map"}
