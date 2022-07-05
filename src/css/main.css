@@ -94,16 +94,16 @@ body.modal-open {
 .thanks-logo {
   width: 160px;
   height: 45px;
-  padding-top: 23px 0 0 80px;
+  padding: 23px 0 0 80px;
 }
 @media screen and (min-width: 768px) {
   .thanks-logo {
-    padding-top: 46px 0 0 304px;
+    padding: 46px 0 0 304px;
   }
 }
 @media screen and (min-width: 1200px) {
   .thanks-logo {
-    padding-top: 46px 0 0 880px;
+    padding: 46px 0 0 880px;
   }
 }
 
@@ -127,18 +127,18 @@ body.modal-open {
 
 .check-bg-image {
   width: 141px;
-  padding-top: 36px 0 0 129px;
+  padding: 36px 0 0 129px;
 }
 @media screen and (min-width: 768px) {
   .check-bg-image {
     width: 224px;
-    padding-top: 54px 0 0 365px;
+    padding: 54px 0 0 365px;
   }
 }
 @media screen and (min-width: 1200px) {
   .check-bg-image {
     width: 224px;
-    padding-top: 105px 0 0 940px;
+    padding: 105px 0 0 940px;
   }
 }
 
@@ -261,7 +261,7 @@ body.modal-open {
 }
 @media screen and (min-width: 768px) {
   .thanks-footer__logo {
-    padding-top: 55px 0 0 304px;
+    padding: 55px 0 0 304px;
   }
 }
 @media screen and (min-width: 1200px) {
