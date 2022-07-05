@@ -1,3 +1,34 @@
-body {
-	background-color: gray;
+// Подключение бвзовых стилей //
+@import './utils/variables';
+@import './utils/vs';
+@import './base/base-style';
+
+// ==================================================================================== //
+
+// Секция НОВОСТИ //
+@import './components/news/news/news';
+@import './components/news/news-inside/news-inside';
+
+// Секция РЕГИСТРАЦИИ ПОЛЬЗОВАТЕЛЯ//
+@import './components/reg-page/reg-page';
+
+// Секция ВХОДА ПОЛЬЗОВАТЕЛЯ //
+@import './components/enter-page/enter-page';
+
+// Секция ЗАКАЗОВ //
+@import './components/order-thanks/order-thanks';
+
+// Стиль для тестового списка страниц html. УДАЛИТЬ ПОСЛЕ НОРМАЛЬНОГО РАСПРЕДЕЛЕНИЯ СТРАНИЦ!!!!! //
+.test-page__list {
+  margin: 50px 0 0 50px;
 }
+
+.test-page__list li {
+  margin-bottom: 10px;
+}
+
+.test-page__list a {
+  color: black;
+  font-weight: 600;
+}
+// Стиль для тестового списка страниц html. УДАЛИТЬ ПОСЛЕ НОРМАЛЬНОГО РАСПРЕДЕЛЕНИЯ СТРАНИЦ!!!!! //
