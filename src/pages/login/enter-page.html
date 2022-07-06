@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto:wght@400;500;800&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -15,12 +21,48 @@
     <link rel="stylesheet" href="../../css/main.min.css" />
   </head>
   <body>
-    <header></header>
+    <header class="enter-header">
+      <img
+        src="../../images/icons/logo.svg"
+        alt="Company logo"
+        class="enter-logo"
+      />
 
-    <main>
-      <section class="authorization"></section>
+    <main >
+      <section class="login-main-container">
+        <a href="../../index.html" class="back-to-home-btn">Назад на главную</a>
+        <div class="auth-container">
+          <h2 class="login-title">Авторизация</h2>
+          <form class="login-form">
+            <label>
+              <input type="text" placeholder="E-mail">
+            </label>
+            <label>
+              <input type="text" placeholder="Пароль">
+            </label>
+
+            <a href="#" class="forgot-pass-btn">Забыли пароль ?</a>
+            <button type="submit" class="login-btn">Войти</button>
+          </form>
+          <div class="register-link-container">
+            <p class="register-link-container__text">Нет аккаунта ?</p>
+            <a href="../registration/reg-page.html" class="register-link-container__link">Регистрация</a>
+          </div>
+        </div>
+
+      </section>
     </main>
 
-    <footer></footer>
+    <footer class="enter-footer">
+      <img
+        src="../../images/icons/logo.svg"
+        alt="Company logo"
+        class="enter-footer__logo"
+      />
+      <div class="copyright">
+        <p>&copy; 2022 'Copper Pro'</p>
+        <p>Все права защищенны</p>
+      </div>
+    </footer>
   </body>
 </html>
