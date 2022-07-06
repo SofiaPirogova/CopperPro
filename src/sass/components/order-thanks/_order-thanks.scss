@@ -8,6 +8,7 @@
     height: 147px;
   }
 
+  
   @media screen and (min-width: 1200px) {
     width: 1920px;
     height: 147px;
@@ -18,6 +19,8 @@
   width: 160px;
   height: 45px;
   padding: 23px 0 0 80px;
+  cursor: pointer;
+
 
   @media screen and (min-width: 768px) {
     padding: 46px 0 0 304px;
@@ -135,6 +138,8 @@
   text-align: center;
   color: #ffffff;
 
+  cursor: pointer;
+
   background: linear-gradient(92.18deg, #5e3928 20.13%, #e4a16f 92.93%);
 
   @media screen and (min-width: 768px) {
@@ -162,6 +167,8 @@
   width: 160px;
   height: 45px;
   padding: 40px 0 0 65px;
+
+  cursor: pointer;
 
   @media screen and (min-width: 768px) {
     padding: 55px 0 0 304px;
