@@ -1,3 +1,14 @@
+:root {
+  --second-gradient: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+  --main-gradient:linear-gradient(285.45deg, #0B3F37 38.27%, #CB8D62 141.81%);
+  --sale-color: #9B0000;
+  --second-accent-color:#4B7159;
+  --main-text-color:#031412;
+  --bottom-border-color:#E6E8E7;
+  --card-shadow:0px 0px 40px rgba(0, 0, 0, 0.1);
+  --curiosity-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -14,6 +25,7 @@
 
 a {
   text-decoration: none;
+  color: var(--main-text-color);
 }
 
 h1,
@@ -57,6 +69,11 @@ body.modal-open {
   padding-left: 15px;
   padding-right: 15px;
 }
+@media screen and (min-width: 320px) {
+  .container {
+    width: 320px;
+  }
+}
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
@@ -71,6 +88,19 @@ body.modal-open {
   .container {
     width: 1200px;
   }
+}
+@media screen and (min-width: 1920px) {
+  .container {
+    width: 1920px;
+  }
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.font-size-m {
+  font-size: 16px;
 }
 
 .enter-header {
@@ -595,6 +625,86 @@ body.modal-open {
   font-size: 14px;
   line-height: 1.34;
   color: #adadad;
+}
+
+.font-weigth-xs {
+  font-weight: 100;
+}
+
+.card-arrow {
+  background-image: var(--main-gradient);
+  width: 13px;
+  height: 17px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-arrow-svg {
+  width: 6px;
+  height: 6px;
+  fill: #fff;
+}
+
+.card-top-image-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card-arrow-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-left-scroll-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 277px;
+  width: 43px;
+}
+
+.card-left-scroll__size {
+  width: 43px;
+  height: 47px;
+}
+
+.card-left-scroll-img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-wrapper-top-img {
+  width: 232px;
 }
 
 .test-page__list {

@@ -18,6 +18,9 @@
 // Секция ЗАКАЗОВ //
 @import './components/order-thanks/order-thanks';
 
+// Секция Product Card
+@import './components/card-products/card-products.scss';
+
 // Стиль для тестового списка страниц html. УДАЛИТЬ ПОСЛЕ НОРМАЛЬНОГО РАСПРЕДЕЛЕНИЯ СТРАНИЦ!!!!! //
 .test-page__list {
   margin: 50px 0 0 50px;

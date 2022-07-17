@@ -1,0 +1,50 @@
+.font-weigth-xs {
+	font-weight: 100;
+}
+
+.card-arrow{
+	background-image:var(--main-gradient);
+	width: 13px;
+	height: 17px;
+	transform: rotate(90deg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-arrow-svg{
+	width: 6px;
+	height: 6px;
+	fill: #fff
+}
+.card-top-image-section{
+	display: flex;
+	justify-content: space-between;
+}
+
+.card-arrow-column{
+	display: flex;
+	flex-direction: column;
+align-items: center;
+}
+.card-left-scroll-images{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+	height: 277px;
+	width:43px;
+}
+.card-left-scroll__size{
+  width:43px;
+	height: 47px;
+}
+
+.card-left-scroll-img{
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.card-wrapper-top-img{
+	width:232px
+}

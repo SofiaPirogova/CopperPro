@@ -10,3 +10,15 @@ $secondary-font: Raleway, sans-serif;
 $cubic: cubic-bezier(0.4, 0, 0.2, 1);
 $primary-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
   0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+// begin
+:root{
+  --second-gradient: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+  --main-gradient:linear-gradient(285.45deg, #0B3F37 38.27%, #CB8D62 141.81%);
+  --sale-color: #9B0000;
+  --second-accent-color:#4B7159;
+  --main-text-color:#031412;
+  --bottom-border-color:#E6E8E7;
+  // card-product
+  --card-shadow:0px 0px 40px rgba(0, 0, 0, 0.1);
+  --curiosity-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+}
