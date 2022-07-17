@@ -1,5 +1,7 @@
 a {
   text-decoration: none;
+  color:var(--main-text-color);
+  // color:red;
 }
 
 h1,
@@ -42,6 +44,10 @@ body.modal-open {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  
+  @media screen and (min-width: 320px) {
+    width: 320px;
+  }
 
   @media screen and (min-width: 480px) {
     width: 480px;
@@ -54,4 +60,15 @@ body.modal-open {
   @media screen and (min-width: 1200px) {
     width: 1200px;
   }
+  @media screen and (min-width: 1920px) {
+    width: 1920px;
+  }
+}
+
+.bold{
+  font-weight: 800;
+}
+
+.font-size-m{
+  font-size: 16px;
 }

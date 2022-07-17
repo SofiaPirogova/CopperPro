@@ -21,6 +21,7 @@
     "parcel": "^2.6.2"
   },
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
     "notiflix": "^3.2.5",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4",
